@@ -1,0 +1,206 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://d0qmrq2f6a800"
+path="res://.godot/imported/AlchemyGame-Objects.blend-7e7ccb7b3f316d61f9d0b69c577e5b90.scn"
+
+[deps]
+
+source_file="res://Assets/AlchemyGame-Objects.blend"
+dest_files=["res://.godot/imported/AlchemyGame-Objects.blend-7e7ccb7b3f316d61f9d0b69c577e5b90.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+_subresources={
+"materials": {
+"BeakerInner": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/Objects/Liquid/LiquidBody.tres"
+},
+"BeakerStand_01": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/Statics/Beaker Stand/BeakerStandMetal.tres"
+},
+"BeakerStand_02": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/Statics/Beaker Stand/BeakerStandCandle.tres"
+},
+"BeakerStand_03": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/Statics/Beaker Stand/BeakerStandWick.tres"
+},
+"Beaker_01": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/Objects/BeakerGlass.tres"
+},
+"IngredientTest": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/Objects/Ingredients/IngredientTest.tres"
+},
+"Monkey_01": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/Objects/Monkey_01.tres"
+},
+"Monkey_02": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/Objects/Monkey_02.tres"
+},
+"Mortar": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/Statics/Mortar & Pestle/Mortar.tres"
+},
+"MortarIngredient": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/Statics/Mortar & Pestle/MortarIngredient.tres"
+},
+"MortarPowder": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/Statics/Mortar & Pestle/MortarPowder.tres"
+},
+"MushroomCap_01": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/Objects/Ingredients/Mushroom/MushroomCap.tres"
+},
+"MushroomStalk_01": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/Objects/Ingredients/Mushroom/MushroomStalk.tres"
+},
+"MushroomUnder_01": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/Objects/Ingredients/Mushroom/MushroomUnder.tres"
+},
+"Pestle": {
+"use_external/enabled": true,
+"use_external/path": "res://Assets/Materials/Statics/Mortar & Pestle/Pestle.tres"
+}
+},
+"meshes": {
+"AlchemyGame-Objects_Cylinder": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Mesh/BeakerStand.res"
+},
+"AlchemyGame-Objects_Cylinder_001": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Mesh/Pestle.res"
+},
+"AlchemyGame-Objects_Icosphere": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Mesh/MortarPowder.res"
+},
+"AlchemyGame-Objects_Icosphere_001": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Mesh/MortarIngredient.res"
+},
+"AlchemyGame-Objects_Sphere": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Mesh/Beaker.res"
+},
+"AlchemyGame-Objects_Sphere_001": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Mesh/BeakerInner.res"
+},
+"AlchemyGame-Objects_Sphere_002": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Mesh/Mortar.res"
+},
+"AlchemyGame-Objects_Sphere_003": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Mesh/IngredientTest.res"
+},
+"AlchemyGame-Objects_Sphere_004": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Mesh/Mushroom.res"
+},
+"AlchemyGame-Objects_Suzanne": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Mesh/Monkey.res"
+}
+}
+}
+blender/nodes/visible=0
+blender/nodes/active_collection_only=false
+blender/nodes/punctual_lights=true
+blender/nodes/cameras=true
+blender/nodes/custom_properties=true
+blender/nodes/modifiers=1
+blender/meshes/colors=false
+blender/meshes/uvs=true
+blender/meshes/normals=true
+blender/meshes/tangents=true
+blender/meshes/skins=2
+blender/meshes/export_bones_deforming_mesh_only=false
+blender/materials/unpack_enabled=true
+blender/materials/export_materials=1
+blender/animation/limit_playback=true
+blender/animation/always_sample=true
+blender/animation/group_tracks=true

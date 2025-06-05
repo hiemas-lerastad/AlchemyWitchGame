@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Attribute" load_steps=2 format=3 uid="uid://dlavb3nvvp5vm"]
+
+[ext_resource type="Script" path="res://Scripts/Objects & Movement/Alchemy/Attribute.gd" id="1_skhmi"]
+
+[resource]
+script = ExtResource("1_skhmi")
+id = 0
+name = "Aqua"
+color = Color(0.261025, 0.476986, 0.987675, 1)

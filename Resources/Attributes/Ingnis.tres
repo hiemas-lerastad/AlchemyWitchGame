@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Attribute" load_steps=2 format=3 uid="uid://dxa2g7md6orw5"]
+
+[ext_resource type="Script" path="res://Scripts/Objects & Movement/Alchemy/Attribute.gd" id="1_hsbgc"]
+
+[resource]
+script = ExtResource("1_hsbgc")
+id = 2
+name = "Ignis"
+color = Color(0.635294, 0.0862745, 0.0352941, 1)

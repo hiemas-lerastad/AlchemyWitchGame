@@ -1,0 +1,91 @@
+[gd_scene load_steps=13 format=3 uid="uid://y6dggb11dqxd"]
+
+[ext_resource type="PackedScene" uid="uid://b4coi5tc3wovp" path="res://Assets/AlchemyGame-Hand-Model.blend" id="1_5q3h1"]
+[ext_resource type="Script" path="res://Scripts/Hand.gd" id="1_fgy18"]
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ns20e"]
+animation = &"Grab"
+
+[sub_resource type="AnimationNodeBlend2" id="AnimationNodeBlend2_upgyg"]
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_kq8hn"]
+animation = &"Grab-Indicator"
+
+[sub_resource type="AnimationNodeBlend2" id="AnimationNodeBlend2_mbawk"]
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_6yh7c"]
+animation = &"Hold-Verical"
+
+[sub_resource type="AnimationNodeBlend2" id="AnimationNodeBlend2_c25bs"]
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_u6olq"]
+animation = &"Point"
+
+[sub_resource type="AnimationNodeBlend2" id="AnimationNodeBlend2_laa0p"]
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_rkvmw"]
+animation = &"Rest"
+
+[sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_d4cyk"]
+graph_offset = Vector2(-45.871, -235.835)
+"nodes/Grab Animation/node" = SubResource("AnimationNodeAnimation_ns20e")
+"nodes/Grab Animation/position" = Vector2(720, 380)
+"nodes/Grab Blend/node" = SubResource("AnimationNodeBlend2_upgyg")
+"nodes/Grab Blend/position" = Vector2(860, 120)
+"nodes/Grabbable Animation/node" = SubResource("AnimationNodeAnimation_kq8hn")
+"nodes/Grabbable Animation/position" = Vector2(100, 380)
+"nodes/Grabbable Blend/node" = SubResource("AnimationNodeBlend2_mbawk")
+"nodes/Grabbable Blend/position" = Vector2(300, 120)
+"nodes/Hold Vertical Animation/node" = SubResource("AnimationNodeAnimation_6yh7c")
+"nodes/Hold Vertical Animation/position" = Vector2(460, 380)
+"nodes/Hold Vertical Blend/node" = SubResource("AnimationNodeBlend2_c25bs")
+"nodes/Hold Vertical Blend/position" = Vector2(680, 120)
+"nodes/Point Animation/node" = SubResource("AnimationNodeAnimation_u6olq")
+"nodes/Point Animation/position" = Vector2(300, 380)
+"nodes/Point Blend/node" = SubResource("AnimationNodeBlend2_laa0p")
+"nodes/Point Blend/position" = Vector2(480, 120)
+"nodes/Rest Animation/node" = SubResource("AnimationNodeAnimation_rkvmw")
+"nodes/Rest Animation/position" = Vector2(100, 140)
+nodes/output/position = Vector2(1020, 120)
+node_connections = [&"Grab Blend", 0, &"Hold Vertical Blend", &"Grab Blend", 1, &"Grab Animation", &"Grabbable Blend", 0, &"Rest Animation", &"Grabbable Blend", 1, &"Grabbable Animation", &"Hold Vertical Blend", 0, &"Point Blend", &"Hold Vertical Blend", 1, &"Hold Vertical Animation", &"Point Blend", 0, &"Grabbable Blend", &"Point Blend", 1, &"Point Animation", &"output", 0, &"Grab Blend"]
+
+[node name="Hand" node_paths=PackedStringArray("animation_tree", "animation_player") instance=ExtResource("1_5q3h1")]
+script = ExtResource("1_fgy18")
+animation_tree = NodePath("AnimationTree")
+animation_player = NodePath("AnimationPlayer")
+animation_duration = 0.1
+
+[node name="Skeleton3D" parent="Armature" index="0"]
+bones/0/position = Vector3(-0.0271899, 0.0010773, -0.261819)
+bones/0/rotation = Quaternion(0.655539, 0.26672, 0.275381, 0.650611)
+bones/0/scale = Vector3(1, 1, 1)
+bones/1/rotation = Quaternion(-0.00087049, 1.48964e-08, -0.00699221, 0.999975)
+bones/1/scale = Vector3(1, 1, 1)
+bones/3/rotation = Quaternion(0.327908, 3.13359e-06, -0.326986, 0.886316)
+bones/4/rotation = Quaternion(0.0835742, -0.000475645, 0.0779962, 0.993444)
+bones/4/scale = Vector3(1, 1, 1)
+bones/5/rotation = Quaternion(-0.141599, 8.45964e-08, 0.141201, 0.979802)
+bones/5/scale = Vector3(1, 1, 1)
+bones/6/rotation = Quaternion(0.138755, 3.41019e-06, -0.138364, 0.980613)
+bones/6/scale = Vector3(1, 1, 1)
+bones/7/rotation = Quaternion(0.087181, -0.000998439, 0.087244, 0.992364)
+bones/8/rotation = Quaternion(0.170114, 9.78609e-08, -0.169637, 0.970713)
+bones/9/rotation = Quaternion(-0.172906, -3.63326e-06, 0.172422, 0.969729)
+bones/10/rotation = Quaternion(0.0719753, -0.00039415, 0.0664481, 0.99519)
+bones/11/rotation = Quaternion(0.342618, -4.25675e-09, -0.341656, 0.875148)
+bones/12/rotation = Quaternion(-0.347684, -1.48923e-06, 0.34671, 0.871153)
+bones/12/scale = Vector3(1, 1, 1)
+bones/13/rotation = Quaternion(0.0672071, -0.000711221, 0.0558329, 0.996175)
+bones/13/scale = Vector3(1, 1, 1)
+bones/14/rotation = Quaternion(0.424083, 6.51257e-08, -0.422893, 0.800821)
+bones/14/scale = Vector3(1, 1, 1)
+bones/15/rotation = Quaternion(-0.0855929, 2.97843e-08, 0.0853527, 0.992668)
+bones/16/rotation = Quaternion(0.0291811, -0.0815551, 0.137132, 0.986758)
+
+[node name="AnimationTree" type="AnimationTree" parent="." index="2"]
+tree_root = SubResource("AnimationNodeBlendTree_d4cyk")
+anim_player = NodePath("../AnimationPlayer")
+"parameters/Grab Blend/blend_amount" = 0
+"parameters/Grabbable Blend/blend_amount" = 0.0
+"parameters/Hold Vertical Blend/blend_amount" = 0
+"parameters/Point Blend/blend_amount" = 0

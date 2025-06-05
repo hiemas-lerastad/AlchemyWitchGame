@@ -1,0 +1,46 @@
+[gd_scene load_steps=6 format=3 uid="uid://c5uogfy3hlcof"]
+
+[ext_resource type="Script" path="res://Scripts/Objects & Movement/Containers/ObjectContainer.gd" id="1_qtq3m"]
+[ext_resource type="ArrayMesh" uid="uid://qsd41porw67v" path="res://Assets/Mesh/Beaker.res" id="2_nnp3s"]
+[ext_resource type="Script" path="res://Scripts/Utilities/LiquidManager.gd" id="3_m0pkd"]
+[ext_resource type="ArrayMesh" uid="uid://cr77dxicjojml" path="res://Assets/Mesh/BeakerInner.res" id="3_use6c"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_b6go1"]
+radius = 0.102912
+height = 0.295322
+
+[node name="Beaker" type="StaticBody3D" node_paths=PackedStringArray("meshes", "hold_position", "liquid_manager") groups=["Container", "Grabbable", "Interactable"]]
+collision_layer = 13
+collision_mask = 20
+script = ExtResource("1_qtq3m")
+valid_item_tags = Array[String](["ingredient_liquid", "ingredient_herb", "ingredient_powder", "ingredient_mushroom"])
+excluded_item_tags = Array[String](["ingredient_solid"])
+enable_move = true
+liquid_increase_on_item_added = true
+liquid_increase_amount = 0.3
+meshes = [NodePath("Beaker Glass Mesh")]
+tags = Array[String](["container_beaker"])
+hover_state = 1
+hold_position = NodePath("Hold Position")
+hold_animation = "Hold Vertical"
+liquid_manager = NodePath("Beaker Liquid Mesh")
+
+[node name="Beaker Glass Mesh" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_nnp3s")
+
+[node name="Beaker Liquid Mesh" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.00125834, 0)
+mesh = ExtResource("3_use6c")
+script = ExtResource("3_m0pkd")
+glass_thickness = 0.01
+liquid_color = Color(0.705882, 0, 0, 1)
+liquid_glow_color = Color(0.113725, 0.113725, 1, 1)
+container_height = 0.48
+container_width = 0.48
+
+[node name="Beaker Collider" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.00329161, 0)
+shape = SubResource("CapsuleShape3D_b6go1")
+
+[node name="Hold Position" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00123392, 0.129778, -0.00129603)

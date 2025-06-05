@@ -1,0 +1,55 @@
+[gd_scene load_steps=7 format=3 uid="uid://d37daxy6sp2tn"]
+
+[ext_resource type="Script" path="res://Scripts/Objects & Movement/Containers/BeakerStandHeat.gd" id="1_3pos0"]
+[ext_resource type="Material" uid="uid://crr6qhvexfht" path="res://Assets/Materials/Statics/Beaker Stand/BeakerStandWick.tres" id="2_uqq8a"]
+[ext_resource type="ArrayMesh" uid="uid://bkc3mm462gmu0" path="res://Assets/Mesh/BeakerStand.res" id="3_oqk4b"]
+[ext_resource type="Script" path="res://Scripts/Utilities/Trigger.gd" id="4_luy01"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_n36uu"]
+height = 0.371454
+radius = 0.11216
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_31tym"]
+height = 0.118269
+radius = 0.150516
+
+[node name="Heater Stand" type="StaticBody3D" node_paths=PackedStringArray("beaker_position", "wick_trigger", "light") groups=["Container", "Interactable"]]
+collision_layer = 13
+collision_mask = 20
+script = ExtResource("1_3pos0")
+beaker_position = NodePath("Beaker Position")
+wick_trigger = NodePath("Heater Interaction")
+wick_material = ExtResource("2_uqq8a")
+light = NodePath("OmniLight3D")
+interaction_type = 3
+recipes_tag = "boil"
+hover_state = 1
+
+[node name="Heater Stand Mesh" type="MeshInstance3D" parent="."]
+mesh = ExtResource("3_oqk4b")
+
+[node name="Heater Stand Collider" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.21686e-05, -0.079355, 0.0205994)
+shape = SubResource("CylinderShape3D_n36uu")
+
+[node name="Beaker Position" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.028747, 0.0154627)
+
+[node name="Heater Interaction" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.224414, 0.0218175)
+collision_layer = 4
+collision_mask = 0
+script = ExtResource("4_luy01")
+id = "heater_wick"
+hover_state = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Heater Interaction"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0184869, 0)
+shape = SubResource("CylinderShape3D_31tym")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.121877, 0.019153)
+visible = false
+light_color = Color(0.89617, 0.19945, 0, 1)
+light_energy = 0.5
+shadow_enabled = true

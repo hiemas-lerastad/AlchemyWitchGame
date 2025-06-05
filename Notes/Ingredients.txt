@@ -1,0 +1,1062 @@
+1. Moonfern
+Attributes: Verdancy, Petal, Glade
+
+Transforms:
+Grinding → Crushed Moonfern: Petal, Verdancy, Sap
+
+Boiling → Steamed Moonfern: Glade, Tides, Chill
+
+Centrifuging → Spun Moonfern: Gleam, Verdancy, Nectar
+
+Crushed Moonfern
+Grinding: Powdered Bloom — Petal, Sap, Nectar
+
+Boiling: Herbal Sludge — Verdancy, Rootbind, Husk
+
+Centrifuging: Pollen Mist — Petal, Spore, Mirage
+
+Steamed Moonfern
+Grinding: Wilted Fern — Husk, Verdancy, Chill
+
+Boiling: Floral Broth — Petal, Glade, Nectar
+
+Centrifuging: Dew Oil — Tides, Chill, Gleam
+
+Spun Moonfern
+Grinding: Glossy Tincture — Nectar, Gleam, Pulse
+
+Boiling: Lush Serum — Verdancy, Petal, Crystal
+
+Centrifuging: Fern Light — Glade, Mirage, Gleam
+
+2. Cinderroot
+Attributes: Embers, Rootbind, Stonecall
+
+Transforms:
+Grinding → Cinder Dust: Embers, Pulse, Stonecall
+
+Boiling → Blister Bark: Fume, Husk, Rootbind
+
+Centrifuging → Ember Sap: Sap, Embers, Bramble
+
+Cinder Dust
+Grinding: Ash Pile — Embers, Husk, Gloom
+
+Boiling: Vital Ash — Pulse, Embers, Chill
+
+Centrifuging: Spark Glint — Crystal, Embers, Gleam
+
+Blister Bark
+Grinding: Char Husk — Husk, Fume, Bramble
+
+Boiling: Root Slurry — Rootbind, Fume, Husk
+
+Centrifuging: Boil Extract — Embers, Pulse, Fume
+
+Ember Sap
+Grinding: Sticky Flame — Sap, Bramble, Embers
+
+Boiling: Fire Resin — Embers, Sap, Verdancy
+
+Centrifuging: Smolder Essence — Bramble, Gloom, Embers
+
+3. Tidecap
+Attributes: Tides, Spore, Chill
+
+Transforms:
+Grinding → Tide Dust: Spore, Chill, Mirage
+
+Boiling → Brinecap: Tides, Chill, Fume
+
+Centrifuging → Cap Extract: Pulse, Tides, Crystal
+
+Tide Dust
+Grinding: Mist Powder — Chill, Mirage, Gloom
+
+Boiling: Chillbrew — Chill, Spore, Nectar
+
+Centrifuging: Dream Dust — Mirage, Crystal, Pulse
+
+Brinecap
+Grinding: Dried Cap — Husk, Chill, Stonecall
+
+Boiling: Algae Soup — Tides, Spore, Rootbind
+
+Centrifuging: Fog Serum — Chill, Fume, Mirage
+
+Cap Extract
+Grinding: Energized Liquid — Pulse, Chill, Crystal
+
+Boiling: Bright Broth — Pulse, Nectar, Gleam
+
+Centrifuging: Waterlight — Crystal, Tides, Gleam
+
+4. Brimleaf
+Attributes: Embers, Verdancy, Sap
+
+Transforms:
+Grinding → Emberleaf Dust: Embers, Verdancy, Husk
+
+Boiling → Sappy Brew: Sap, Pulse, Verdancy
+
+Centrifuging → Volatile Oil: Embers, Sap, Gleam
+
+Emberleaf Dust
+Grinding: Smoked Herbs — Embers, Husk, Chill
+
+Boiling: Verdant Ash — Verdancy, Stonecall, Husk
+
+Centrifuging: Heat Spores — Embers, Spore, Mirage
+
+Sappy Brew
+Grinding: Sticky Extract — Sap, Pulse, Chill
+
+Boiling: Bloom Tonic — Verdancy, Nectar, Sap
+
+Centrifuging: Honey Vapor — Pulse, Sap, Gleam
+
+Volatile Oil
+Grinding: Ignite Serum — Gleam, Embers, Mirage
+
+Boiling: Burned Resin — Embers, Sap, Bramble
+
+Centrifuging: Lucent Drip — Gleam, Sap, Crystal
+
+5. Duskwort
+Attributes: Gloom, Husk, Petal
+
+Transforms:
+Grinding → Crushed Duskwort: Gloom, Petal, Spore
+
+Boiling → Dusk Infusion: Husk, Nectar, Gloom
+
+Centrifuging → Essence of Night: Petal, Gloom, Mirage
+
+Crushed Duskwort
+Grinding: Shadow Pollen — Petal, Spore, Mirage
+
+Boiling: Murk Slurry — Gloom, Husk, Rootbind
+
+Centrifuging: Black Dust — Gloom, Stonecall, Chill
+
+Dusk Infusion
+Grinding: Nectar Husk — Nectar, Husk, Pulse
+
+Boiling: Dusk Bloom — Petal, Gloom, Husk
+
+Centrifuging: Veiled Elixir — Mirage, Husk, Nectar
+
+Essence of Night
+Grinding: Night Vapors — Mirage, Gloom, Chill
+
+Boiling: Nocturne Oil — Petal, Gloom, Gleam
+
+Centrifuging: Shadow Drip — Mirage, Gloom, Rootbind
+
+6. Frostlily
+Attributes: Chill, Petal, Crystal
+
+Transforms:
+Grinding → Petal Flakes: Chill, Petal, Husk
+
+Boiling → Frost Infusion: Chill, Crystal, Pulse
+
+Centrifuging → Frozen Nectar: Crystal, Nectar, Petal
+
+Petal Flakes
+Grinding: Withered Lily — Husk, Chill, Rootbind
+
+Boiling: Cold Broth — Chill, Petal, Sap
+
+Centrifuging: Bloom Frost — Crystal, Chill, Spore
+
+Frost Infusion
+Grinding: Shard Dust — Crystal, Chill, Gloom
+
+Boiling: Frozen Bloom — Petal, Chill, Crystal
+
+Centrifuging: Frost Echo — Chill, Crystal, Gleam
+
+Frozen Nectar
+Grinding: Sugar Ice — Crystal, Nectar, Chill
+
+Boiling: Sweet Ice — Nectar, Petal, Chill
+
+Centrifuging: Prism Drop — Crystal, Gleam, Nectar
+
+7. Mirebulb
+Attributes: Fume, Rootbind, Husk
+
+Transforms:
+Grinding → Cracked Bulb: Fume, Husk, Stonecall
+
+Boiling → Mire Ooze: Fume, Rootbind, Spore
+
+Centrifuging → Toxic Resin: Rootbind, Fume, Chill
+
+Cracked Bulb
+Grinding: Dusty Husk — Husk, Stonecall, Pulse
+
+Boiling: Bitter Slurry — Fume, Husk, Sap
+
+Centrifuging: Earth Mist — Fume, Chill, Husk
+
+Mire Ooze
+Grinding: Root Muck — Rootbind, Fume, Pulse
+
+Boiling: Bulb Broth — Spore, Husk, Rootbind
+
+Centrifuging: Acid Gel — Fume, Nectar, Husk
+
+Toxic Resin
+Grinding: Vapored Drop — Chill, Fume, Mirage
+
+Boiling: Seep Sap — Rootbind, Sap, Fume
+
+Centrifuging: Stained Oil — Chill, Fume, Bramble
+
+8. Glimmerpine
+Attributes: Gleam, Sap, Crystal
+
+Transforms:
+Grinding → Pine Dust: Crystal, Gleam, Rootbind
+
+Boiling → Radiant Sap: Gleam, Sap, Pulse
+
+Centrifuging → Prism Oil: Gleam, Crystal, Nectar
+
+Pine Dust
+Grinding: Bark Powder — Rootbind, Husk, Gleam
+
+Boiling: Bright Flake — Gleam, Crystal, Gloom
+
+Centrifuging: Radiant Ash — Gleam, Spore, Crystal
+
+Radiant Sap
+Grinding: Sparkle Residue — Gleam, Sap, Chill
+
+Boiling: Shine Brew — Gleam, Nectar, Pulse
+
+Centrifuging: Essence of Light — Pulse, Gleam, Crystal
+
+Prism Oil
+Grinding: Refined Light — Crystal, Gleam, Mirage
+
+Boiling: Lucent Syrup — Nectar, Sap, Gleam
+
+Centrifuging: Glint Resin — Crystal, Sap, Nectar
+
+9. Thornapple
+Attributes: Bramble, Pulse, Petal
+
+Transforms:
+Grinding → Thorn Mash: Bramble, Petal, Fume
+
+Boiling → Blooming Brine: Petal, Pulse, Nectar
+
+Centrifuging → Apple Extract: Bramble, Pulse, Chill
+
+Thorn Mash
+Grinding: Spine Tonic — Bramble, Fume, Nectar
+
+Boiling: Thorn Soup — Bramble, Husk, Petal
+
+Centrifuging: Toxic Thorn — Bramble, Mirage, Pulse
+
+Blooming Brine
+Grinding: Petal Paste — Petal, Nectar, Pulse
+
+Boiling: Juiced Thorn — Nectar, Petal, Sap
+
+Centrifuging: Floral Spark — Pulse, Petal, Gleam
+
+Apple Extract
+Grinding: Icy Bloom — Chill, Petal, Crystal
+
+Boiling: Sour Resin — Pulse, Sap, Bramble
+
+Centrifuging: Thornlight — Bramble, Crystal, Gleam
+
+10. Skyshard Fungus
+Attributes: Crystal, Spore, Mirage
+
+Transforms:
+Grinding → Sky Dust: Mirage, Crystal, Pulse
+
+Boiling → Fungal Elixir: Spore, Mirage, Nectar
+
+Centrifuging → Shard Gel: Crystal, Chill, Spore
+
+Sky Dust
+Grinding: Starlight Flake — Crystal, Mirage, Gleam
+
+Boiling: Hallucinogen — Mirage, Fume, Pulse
+
+Centrifuging: Lunar Dust — Mirage, Pulse, Spore
+
+Fungal Elixir
+Grinding: Dream Syrup — Nectar, Mirage, Chill
+
+Boiling: Bloom Ether — Spore, Mirage, Gleam
+
+Centrifuging: Soft Rot — Nectar, Husk, Spore
+
+Shard Gel
+Grinding: Chilling Drop — Chill, Crystal, Mirage
+
+Boiling: Frost Fume — Chill, Fume, Crystal
+
+Centrifuging: Crystal Mold — Spore, Crystal, Gloom
+
+
+
+{
+  name: "Moonfern",
+  attributes: ["Verdancy", "Petal", "Glade"],
+  transforms: {
+    grinding: "Crushed Moonfern",
+    boiling: "Steamed Moonfern",
+    centrifuging: "Spun Moonfern"
+  }
+},
+{
+  name: "Crushed Moonfern",
+  attributes: ["Petal", "Verdancy", "Sap"],
+  transforms: {
+    grinding: "Powdered Bloom",
+    boiling: "Herbal Sludge",
+    centrifuging: "Pollen Mist"
+  }
+},
+{
+  name: "Steamed Moonfern",
+  attributes: ["Glade", "Tides", "Chill"],
+  transforms: {
+    grinding: "Wilted Fern",
+    boiling: "Floral Broth",
+    centrifuging: "Dew Oil"
+  }
+},
+{
+  name: "Spun Moonfern",
+  attributes: ["Gleam", "Verdancy", "Nectar"],
+  transforms: {
+    grinding: "Glossy Tincture",
+    boiling: "Lush Serum",
+    centrifuging: "Fern Light"
+  }
+},
+
+{
+  name: "Powdered Bloom",
+  attributes: ["Petal", "Sap", "Nectar"],
+},
+{
+  name: "Herbal Sludge",
+  attributes: ["Verdancy", "Rootbind", "Husk"],
+},
+{
+  name: "Pollen Mist",
+  attributes: ["Petal", "Spore", "Mirage"],
+},
+
+{
+  name: "Wilted Fern",
+  attributes: ["Husk", "Verdancy", "Chill"],
+},
+{
+  name: "Floral Broth",
+  attributes: ["Petal", "Glade", "Nectar"],
+},
+{
+  name: "Dew Oil",
+  attributes: ["Tides", "Chill", "Gleam"],
+},
+
+{
+  name: "Glossy Tincture",
+  attributes: ["Nectar", "Gleam", "Pulse"],
+},
+{
+  name: "Lush Serum",
+  attributes: ["Verdancy", "Petal", "Crystal"],
+},
+{
+  name: "Fern Light",
+  attributes: ["Glade", "Mirage", "Gleam"],
+}
+{
+  name: "Cinderroot",
+  attributes: ["Embers", "Rootbind", "Stonecall"],
+  transforms: {
+    grinding: "Cinder Dust",
+    boiling: "Blister Bark",
+    centrifuging: "Ember Sap"
+  }
+},
+{
+  name: "Cinder Dust",
+  attributes: ["Embers", "Pulse", "Stonecall"],
+  transforms: {
+    grinding: "Ash Pile",
+    boiling: "Vital Ash",
+    centrifuging: "Spark Glint"
+  }
+},
+{
+  name: "Blister Bark",
+  attributes: ["Fume", "Husk", "Rootbind"],
+  transforms: {
+    grinding: "Char Husk",
+    boiling: "Root Slurry",
+    centrifuging: "Boil Extract"
+  }
+},
+{
+  name: "Ember Sap",
+  attributes: ["Sap", "Embers", "Bramble"],
+  transforms: {
+    grinding: "Sticky Flame",
+    boiling: "Fire Resin",
+    centrifuging: "Smolder Essence"
+  }
+},
+
+{
+  name: "Ash Pile",
+  attributes: ["Embers", "Husk", "Gloom"],
+},
+{
+  name: "Vital Ash",
+  attributes: ["Pulse", "Embers", "Chill"],
+},
+{
+  name: "Spark Glint",
+  attributes: ["Crystal", "Embers", "Gleam"],
+},
+
+{
+  name: "Char Husk",
+  attributes: ["Husk", "Fume", "Bramble"],
+},
+{
+  name: "Root Slurry",
+  attributes: ["Rootbind", "Fume", "Husk"],
+},
+{
+  name: "Boil Extract",
+  attributes: ["Embers", "Pulse", "Fume"],
+},
+
+{
+  name: "Sticky Flame",
+  attributes: ["Sap", "Bramble", "Embers"],
+},
+{
+  name: "Fire Resin",
+  attributes: ["Embers", "Sap", "Verdancy"],
+},
+{
+  name: "Smolder Essence",
+  attributes: ["Bramble", "Gloom", "Embers"],
+}
+{
+  name: "Tidecap",
+  attributes: ["Tides", "Spore", "Chill"],
+  transforms: {
+    grinding: "Tide Dust",
+    boiling: "Brinecap",
+    centrifuging: "Cap Extract"
+  }
+},
+{
+  name: "Tide Dust",
+  attributes: ["Spore", "Chill", "Mirage"],
+  transforms: {
+    grinding: "Mist Powder",
+    boiling: "Chillbrew",
+    centrifuging: "Dream Dust"
+  }
+},
+{
+  name: "Brinecap",
+  attributes: ["Tides", "Chill", "Fume"],
+  transforms: {
+    grinding: "Dried Cap",
+    boiling: "Algae Soup",
+    centrifuging: "Fog Serum"
+  }
+},
+{
+  name: "Cap Extract",
+  attributes: ["Pulse", "Tides", "Crystal"],
+  transforms: {
+    grinding: "Energized Liquid",
+    boiling: "Bright Broth",
+    centrifuging: "Waterlight"
+  }
+},
+
+{
+  name: "Mist Powder",
+  attributes: ["Chill", "Mirage", "Gloom"],
+},
+{
+  name: "Chillbrew",
+  attributes: ["Chill", "Spore", "Nectar"],
+},
+{
+  name: "Dream Dust",
+  attributes: ["Mirage", "Crystal", "Pulse"],
+},
+
+{
+  name: "Dried Cap",
+  attributes: ["Husk", "Chill", "Stonecall"],
+},
+{
+  name: "Algae Soup",
+  attributes: ["Tides", "Spore", "Rootbind"],
+},
+{
+  name: "Fog Serum",
+  attributes: ["Chill", "Fume", "Mirage"],
+},
+
+{
+  name: "Energized Liquid",
+  attributes: ["Pulse", "Chill", "Crystal"],
+},
+{
+  name: "Bright Broth",
+  attributes: ["Pulse", "Nectar", "Gleam"],
+},
+{
+  name: "Waterlight",
+  attributes: ["Crystal", "Tides", "Gleam"],
+}
+{
+  name: "Brimleaf",
+  attributes: ["Embers", "Verdancy", "Sap"],
+  transforms: {
+    grinding: "Emberleaf Dust",
+    boiling: "Sappy Brew",
+    centrifuging: "Volatile Oil"
+  }
+},
+{
+  name: "Emberleaf Dust",
+  attributes: ["Embers", "Verdancy", "Husk"],
+  transforms: {
+    grinding: "Smoked Herbs",
+    boiling: "Verdant Ash",
+    centrifuging: "Heat Spores"
+  }
+},
+{
+  name: "Sappy Brew",
+  attributes: ["Sap", "Pulse", "Verdancy"],
+  transforms: {
+    grinding: "Sticky Extract",
+    boiling: "Bloom Tonic",
+    centrifuging: "Honey Vapor"
+  }
+},
+{
+  name: "Volatile Oil",
+  attributes: ["Embers", "Sap", "Gleam"],
+  transforms: {
+    grinding: "Ignite Serum",
+    boiling: "Burned Resin",
+    centrifuging: "Lucent Drip"
+  }
+},
+
+{
+  name: "Smoked Herbs",
+  attributes: ["Embers", "Husk", "Chill"],
+},
+{
+  name: "Verdant Ash",
+  attributes: ["Verdancy", "Stonecall", "Husk"],
+},
+{
+  name: "Heat Spores",
+  attributes: ["Embers", "Spore", "Mirage"],
+},
+
+{
+  name: "Sticky Extract",
+  attributes: ["Sap", "Pulse", "Chill"],
+},
+{
+  name: "Bloom Tonic",
+  attributes: ["Verdancy", "Nectar", "Sap"],
+},
+{
+  name: "Honey Vapor",
+  attributes: ["Pulse", "Sap", "Gleam"],
+},
+
+{
+  name: "Ignite Serum",
+  attributes: ["Gleam", "Embers", "Mirage"],
+},
+{
+  name: "Burned Resin",
+  attributes: ["Embers", "Sap", "Bramble"],
+},
+{
+  name: "Lucent Drip",
+  attributes: ["Gleam", "Sap", "Crystal"],
+}
+{
+  name: "Duskwort",
+  attributes: ["Gloom", "Husk", "Petal"],
+  transforms: {
+    grinding: "Crushed Duskwort",
+    boiling: "Dusk Infusion",
+    centrifuging: "Essence of Night"
+  }
+},
+{
+  name: "Crushed Duskwort",
+  attributes: ["Gloom", "Petal", "Spore"],
+  transforms: {
+    grinding: "Shadow Pollen",
+    boiling: "Murk Slurry",
+    centrifuging: "Black Dust"
+  }
+},
+{
+  name: "Dusk Infusion",
+  attributes: ["Husk", "Nectar", "Gloom"],
+  transforms: {
+    grinding: "Nectar Husk",
+    boiling: "Dusk Bloom",
+    centrifuging: "Veiled Elixir"
+  }
+},
+{
+  name: "Essence of Night",
+  attributes: ["Petal", "Gloom", "Mirage"],
+  transforms: {
+    grinding: "Night Vapors",
+    boiling: "Nocturne Oil",
+    centrifuging: "Shadow Drip"
+  }
+},
+
+{
+  name: "Shadow Pollen",
+  attributes: ["Petal", "Spore", "Mirage"],
+},
+{
+  name: "Murk Slurry",
+  attributes: ["Gloom", "Husk", "Rootbind"],
+},
+{
+  name: "Black Dust",
+  attributes: ["Gloom", "Stonecall", "Chill"],
+},
+
+{
+  name: "Nectar Husk",
+  attributes: ["Nectar", "Husk", "Pulse"],
+},
+{
+  name: "Dusk Bloom",
+  attributes: ["Petal", "Gloom", "Husk"],
+},
+{
+  name: "Veiled Elixir",
+  attributes: ["Mirage", "Husk", "Nectar"],
+},
+
+{
+  name: "Night Vapors",
+  attributes: ["Mirage", "Gloom", "Chill"],
+},
+{
+  name: "Nocturne Oil",
+  attributes: ["Petal", "Gloom", "Gleam"],
+},
+{
+  name: "Shadow Drip",
+  attributes: ["Mirage", "Gloom", "Rootbind"],
+}
+{
+  name: "Frostlily",
+  attributes: ["Chill", "Petal", "Crystal"],
+  transforms: {
+    grinding: "Petal Flakes",
+    boiling: "Frost Infusion",
+    centrifuging: "Frozen Nectar"
+  }
+},
+{
+  name: "Petal Flakes",
+  attributes: ["Chill", "Petal", "Husk"],
+  transforms: {
+    grinding: "Withered Lily",
+    boiling: "Cold Broth",
+    centrifuging: "Bloom Frost"
+  }
+},
+{
+  name: "Frost Infusion",
+  attributes: ["Chill", "Crystal", "Pulse"],
+  transforms: {
+    grinding: "Shard Dust",
+    boiling: "Frozen Bloom",
+    centrifuging: "Frost Echo"
+  }
+},
+{
+  name: "Frozen Nectar",
+  attributes: ["Crystal", "Nectar", "Petal"],
+  transforms: {
+    grinding: "Sugar Ice",
+    boiling: "Sweet Ice",
+    centrifuging: "Prism Drop"
+  }
+},
+
+{
+  name: "Withered Lily",
+  attributes: ["Husk", "Chill", "Rootbind"],
+},
+{
+  name: "Cold Broth",
+  attributes: ["Chill", "Petal", "Sap"],
+},
+{
+  name: "Bloom Frost",
+  attributes: ["Crystal", "Chill", "Spore"],
+},
+
+{
+  name: "Shard Dust",
+  attributes: ["Crystal", "Chill", "Gloom"],
+},
+{
+  name: "Frozen Bloom",
+  attributes: ["Petal", "Chill", "Crystal"],
+},
+{
+  name: "Frost Echo",
+  attributes: ["Chill", "Crystal", "Gleam"],
+},
+
+{
+  name: "Sugar Ice",
+  attributes: ["Crystal", "Nectar", "Chill"],
+},
+{
+  name: "Sweet Ice",
+  attributes: ["Nectar", "Petal", "Chill"],
+},
+{
+  name: "Prism Drop",
+  attributes: ["Crystal", "Gleam", "Nectar"],
+}
+{
+  name: "Mirebulb",
+  attributes: ["Fume", "Rootbind", "Husk"],
+  transforms: {
+    grinding: "Cracked Bulb",
+    boiling: "Mire Ooze",
+    centrifuging: "Toxic Resin"
+  }
+},
+{
+  name: "Cracked Bulb",
+  attributes: ["Fume", "Husk", "Stonecall"],
+  transforms: {
+    grinding: "Dusty Husk",
+    boiling: "Bitter Slurry",
+    centrifuging: "Earth Mist"
+  }
+},
+{
+  name: "Mire Ooze",
+  attributes: ["Fume", "Rootbind", "Spore"],
+  transforms: {
+    grinding: "Root Muck",
+    boiling: "Bulb Broth",
+    centrifuging: "Acid Gel"
+  }
+},
+{
+  name: "Toxic Resin",
+  attributes: ["Rootbind", "Fume", "Chill"],
+  transforms: {
+    grinding: "Vapored Drop",
+    boiling: "Seep Sap",
+    centrifuging: "Stained Oil"
+  }
+},
+
+{
+  name: "Dusty Husk",
+  attributes: ["Husk", "Stonecall", "Pulse"],
+},
+{
+  name: "Bitter Slurry",
+  attributes: ["Fume", "Husk", "Sap"],
+},
+{
+  name: "Earth Mist",
+  attributes: ["Fume", "Chill", "Husk"],
+},
+
+{
+  name: "Root Muck",
+  attributes: ["Rootbind", "Fume", "Pulse"],
+},
+{
+  name: "Bulb Broth",
+  attributes: ["Spore", "Husk", "Rootbind"],
+},
+{
+  name: "Acid Gel",
+  attributes: ["Fume", "Nectar", "Husk"],
+},
+
+{
+  name: "Vapored Drop",
+  attributes: ["Chill", "Fume", "Mirage"],
+},
+{
+  name: "Seep Sap",
+  attributes: ["Rootbind", "Sap", "Fume"],
+},
+{
+  name: "Stained Oil",
+  attributes: ["Chill", "Fume", "Bramble"],
+}
+{
+  name: "Glimmerpine",
+  attributes: ["Gleam", "Sap", "Crystal"],
+  transforms: {
+    grinding: "Pine Dust",
+    boiling: "Radiant Sap",
+    centrifuging: "Prism Oil"
+  }
+},
+{
+  name: "Pine Dust",
+  attributes: ["Crystal", "Gleam", "Rootbind"],
+  transforms: {
+    grinding: "Bark Powder",
+    boiling: "Bright Flake",
+    centrifuging: "Radiant Ash"
+  }
+},
+{
+  name: "Radiant Sap",
+  attributes: ["Gleam", "Sap", "Pulse"],
+  transforms: {
+    grinding: "Sparkle Residue",
+    boiling: "Shine Brew",
+    centrifuging: "Essence of Light"
+  }
+},
+{
+  name: "Prism Oil",
+  attributes: ["Gleam", "Crystal", "Nectar"],
+  transforms: {
+    grinding: "Refined Light",
+    boiling: "Lucent Syrup",
+    centrifuging: "Glint Resin"
+  }
+},
+
+{
+  name: "Bark Powder",
+  attributes: ["Rootbind", "Husk", "Gleam"],
+},
+{
+  name: "Bright Flake",
+  attributes: ["Gleam", "Crystal", "Gloom"],
+},
+{
+  name: "Radiant Ash",
+  attributes: ["Gleam", "Spore", "Crystal"],
+},
+
+{
+  name: "Sparkle Residue",
+  attributes: ["Gleam", "Sap", "Chill"],
+},
+{
+  name: "Shine Brew",
+  attributes: ["Gleam", "Nectar", "Pulse"],
+},
+{
+  name: "Essence of Light",
+  attributes: ["Pulse", "Gleam", "Crystal"],
+},
+
+{
+  name: "Refined Light",
+  attributes: ["Crystal", "Gleam", "Mirage"],
+},
+{
+  name: "Lucent Syrup",
+  attributes: ["Nectar", "Sap", "Gleam"],
+},
+{
+  name: "Glint Resin",
+  attributes: ["Crystal", "Sap", "Nectar"],
+}
+{
+  name: "Thornapple",
+  attributes: ["Bramble", "Pulse", "Petal"],
+  transforms: {
+    grinding: "Thorn Mash",
+    boiling: "Blooming Brine",
+    centrifuging: "Apple Extract"
+  }
+},
+{
+  name: "Thorn Mash",
+  attributes: ["Bramble", "Petal", "Fume"],
+  transforms: {
+    grinding: "Spine Tonic",
+    boiling: "Thorn Soup",
+    centrifuging: "Toxic Thorn"
+  }
+},
+{
+  name: "Blooming Brine",
+  attributes: ["Petal", "Pulse", "Nectar"],
+  transforms: {
+    grinding: "Petal Paste",
+    boiling: "Juiced Thorn",
+    centrifuging: "Floral Spark"
+  }
+},
+{
+  name: "Apple Extract",
+  attributes: ["Bramble", "Pulse", "Chill"],
+  transforms: {
+    grinding: "Icy Bloom",
+    boiling: "Sour Resin",
+    centrifuging: "Thornlight"
+  }
+},
+
+{
+  name: "Spine Tonic",
+  attributes: ["Bramble", "Fume", "Nectar"],
+},
+{
+  name: "Thorn Soup",
+  attributes: ["Bramble", "Husk", "Petal"],
+},
+{
+  name: "Toxic Thorn",
+  attributes: ["Bramble", "Mirage", "Pulse"],
+},
+
+{
+  name: "Petal Paste",
+  attributes: ["Petal", "Nectar", "Pulse"],
+},
+{
+  name: "Juiced Thorn",
+  attributes: ["Nectar", "Petal", "Sap"],
+},
+{
+  name: "Floral Spark",
+  attributes: ["Pulse", "Petal", "Gleam"],
+},
+
+{
+  name: "Icy Bloom",
+  attributes: ["Chill", "Petal", "Crystal"],
+},
+{
+  name: "Sour Resin",
+  attributes: ["Pulse", "Sap", "Bramble"],
+},
+{
+  name: "Thornlight",
+  attributes: ["Bramble", "Crystal", "Gleam"],
+}
+{
+  name: "Skyshard Fungus",
+  attributes: ["Crystal", "Spore", "Mirage"],
+  transforms: {
+    grinding: "Sky Dust",
+    boiling: "Fungal Elixir",
+    centrifuging: "Shard Gel"
+  }
+},
+{
+  name: "Sky Dust",
+  attributes: ["Mirage", "Crystal", "Pulse"],
+  transforms: {
+    grinding: "Starlight Flake",
+    boiling: "Hallucinogen",
+    centrifuging: "Lunar Dust"
+  }
+},
+{
+  name: "Fungal Elixir",
+  attributes: ["Spore", "Mirage", "Nectar"],
+  transforms: {
+    grinding: "Dream Syrup",
+    boiling: "Bloom Ether",
+    centrifuging: "Soft Rot"
+  }
+},
+{
+  name: "Shard Gel",
+  attributes: ["Crystal", "Chill", "Spore"],
+  transforms: {
+    grinding: "Chilling Drop",
+    boiling: "Frost Fume",
+    centrifuging: "Crystal Mold"
+  }
+},
+
+{
+  name: "Starlight Flake",
+  attributes: ["Crystal", "Mirage", "Gleam"],
+},
+{
+  name: "Hallucinogen",
+  attributes: ["Mirage", "Fume", "Pulse"],
+},
+{
+  name: "Lunar Dust",
+  attributes: ["Mirage", "Pulse", "Spore"],
+},
+
+{
+  name: "Dream Syrup",
+  attributes: ["Nectar", "Mirage", "Chill"],
+},
+{
+  name: "Bloom Ether",
+  attributes: ["Spore", "Mirage", "Gleam"],
+},
+{
+  name: "Soft Rot",
+  attributes: ["Nectar", "Husk", "Spore"],
+},
+
+{
+  name: "Chilling Drop",
+  attributes: ["Chill", "Crystal", "Mirage"],
+},
+{
+  name: "Frost Fume",
+  attributes: ["Chill", "Fume", "Crystal"],
+},
+{
+  name: "Crystal Mold",
+  attributes: ["Spore", "Crystal", "Gloom"],
+}

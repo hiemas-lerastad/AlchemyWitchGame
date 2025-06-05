@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Attribute" load_steps=2 format=3 uid="uid://dxg2ws4s36n0j"]
+
+[ext_resource type="Script" path="res://Scripts/Objects & Movement/Alchemy/Attribute.gd" id="1_ybf14"]
+
+[resource]
+script = ExtResource("1_ybf14")
+id = 3
+name = "Terra"
+color = Color(0.452982, 0.166592, 0.0748941, 1)

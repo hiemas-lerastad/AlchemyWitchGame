@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://dj0jqv5fg7ocs"]
+
+[ext_resource type="Script" path="res://Scripts/Objects & Movement/Alchemy/Ingredient.gd" id="1_oy708"]
+[ext_resource type="ArrayMesh" uid="uid://c5nxqxa6tw2ym" path="res://Assets/Mesh/IngredientTest.res" id="8_6bwlt"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_jvh2p"]
+radius = 0.05
+height = 0.1
+
+[node name="Ingredient Base" type="StaticBody3D" node_paths=PackedStringArray("meshes") groups=["Grabbable"]]
+collision_layer = 20
+collision_mask = 9
+script = ExtResource("1_oy708")
+meshes = [NodePath("MeshInstance3D")]
+hover_state = 1
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("8_6bwlt")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_jvh2p")

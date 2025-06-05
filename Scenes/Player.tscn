@@ -1,0 +1,73 @@
+[gd_scene load_steps=10 format=3 uid="uid://brq02v2ma5nyo"]
+
+[ext_resource type="Script" path="res://Scripts/Player.gd" id="1_p0l7o"]
+[ext_resource type="Shape3D" uid="uid://bevv5080c5rdj" path="res://Resources/Collision Shapes/InteractShape.tres" id="2_8okvv"]
+[ext_resource type="Material" uid="uid://broe7bcgr8t8h" path="res://Assets/Materials/Pointer_01.tres" id="3_5mr4o"]
+[ext_resource type="Script" path="res://Scripts/Utilities/SmoothRemoteTransform3D.gd" id="3_aj1cs"]
+[ext_resource type="PackedScene" uid="uid://y6dggb11dqxd" path="res://Scenes/Hand.tscn" id="3_jdh8g"]
+[ext_resource type="Script" path="res://Scripts/Utilities/SpringGimbal.gd" id="4_e68kj"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_crhh1"]
+radius = 0.3
+height = 1.8
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_vfguq"]
+radius = 0.3
+height = 1.8
+
+[sub_resource type="SphereMesh" id="SphereMesh_qxq02"]
+material = ExtResource("3_5mr4o")
+radius = 0.001
+height = 0.002
+
+[node name="Player" type="CharacterBody3D" node_paths=PackedStringArray("hand", "pivot", "spring_arm", "hold_position", "hold_container", "hand_rest_position")]
+collision_layer = 2
+script = ExtResource("1_p0l7o")
+hand = NodePath("Hold Container/Hand")
+pivot = NodePath("Pivot")
+spring_arm = NodePath("Pivot/Spring Gimbal")
+hold_position = NodePath("Pivot/Spring Gimbal/Smooth Remote Transform3D")
+hold_container = NodePath("Hold Container")
+interact_shape = ExtResource("2_8okvv")
+hand_rest_position = NodePath("Hand Rest Position")
+
+[node name="Player Collider" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_crhh1")
+
+[node name="Player Mesh" type="MeshInstance3D" parent="."]
+visible = false
+mesh = SubResource("CapsuleMesh_vfguq")
+
+[node name="Pivot" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, 0)
+
+[node name="Main Camera" type="Camera3D" parent="Pivot"]
+cull_mask = 1047553
+
+[node name="RMEOVE WHEN UI ADDED" type="MeshInstance3D" parent="Pivot/Main Camera"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.455069)
+sorting_offset = 10.0
+mesh = SubResource("SphereMesh_qxq02")
+
+[node name="Spring Gimbal" type="Node3D" parent="Pivot"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0, 0, 0)
+script = ExtResource("4_e68kj")
+ray_collision_mask = 20
+spring_length = 1.5
+shape_collision_mask = 25
+override_shape_basis = true
+shape_lock_rotation_x = true
+child_lock_rotation_x = true
+
+[node name="Smooth Remote Transform3D" type="Node3D" parent="Pivot/Spring Gimbal" node_paths=PackedStringArray("remote_path")]
+script = ExtResource("3_aj1cs")
+remote_path = NodePath("../../../Hold Container")
+disabled = true
+
+[node name="Hold Container" type="Node3D" parent="."]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0.4, 0)
+
+[node name="Hand" parent="Hold Container" instance=ExtResource("3_jdh8g")]
+
+[node name="Hand Rest Position" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.461849, -0.168443, -0.539329)

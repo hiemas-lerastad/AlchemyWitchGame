@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://r3nncbno8mxh"]
+
+[ext_resource type="Script" path="res://Scripts/Objects & Movement/Containers/CombinedIngredient.gd" id="1_77cu4"]
+[ext_resource type="ArrayMesh" uid="uid://d0ote7v1yhp3h" path="res://Assets/Mesh/MortarIngredient.res" id="2_5sgxa"]
+[ext_resource type="ArrayMesh" uid="uid://0qabd0pjopdc" path="res://Assets/Mesh/MortarPowder.res" id="3_hpdcv"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_2y4uy"]
+height = 0.0859937
+radius = 0.0842481
+
+[node name="CombinedIngredient" type="StaticBody3D" node_paths=PackedStringArray("mortar_ingredient", "mortar_powder", "meshes") groups=["Container", "Grabbable", "Interactable"]]
+collision_layer = 13
+collision_mask = 20
+script = ExtResource("1_77cu4")
+mortar_ingredient = NodePath("Solid Mesh")
+mortar_powder = NodePath("Powder Mesh")
+enable_move = true
+meshes = [NodePath("Solid Mesh"), NodePath("Powder Mesh")]
+hover_state = 1
+
+[node name="Solid Mesh" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_5sgxa")
+
+[node name="Powder Mesh" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("3_hpdcv")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.00514492, 0)
+shape = SubResource("CylinderShape3D_2y4uy")

@@ -1,0 +1,130 @@
+[gd_scene load_steps=20 format=3 uid="uid://b6tkv8pvxjfqo"]
+
+[ext_resource type="ArrayMesh" uid="uid://dc2lx3pfddw2q" path="res://Assets/Mesh/Cabin.res" id="1_0aj3j"]
+[ext_resource type="Script" path="res://Scripts/CabinManager.gd" id="1_dy26l"]
+[ext_resource type="Environment" uid="uid://c8ci12hl3qcvd" path="res://Resources/CabinEnvironment.tres" id="1_k3kq4"]
+[ext_resource type="PackedScene" uid="uid://brq02v2ma5nyo" path="res://Scenes/Player.tscn" id="3_ocx3a"]
+[ext_resource type="PackedScene" uid="uid://8lg1cafgb0bm" path="res://Scenes/Desk.tscn" id="4_gmhx7"]
+[ext_resource type="Script" path="res://Scripts/Objects & Movement/Moveable.gd" id="4_goy37"]
+[ext_resource type="ArrayMesh" uid="uid://bbqc7ryg0deb3" path="res://Assets/Mesh/Cupboard.res" id="5_0qrim"]
+[ext_resource type="ArrayMesh" uid="uid://dfibjh2afsjir" path="res://Assets/Mesh/Monkey.res" id="6_d7l6c"]
+[ext_resource type="PackedScene" uid="uid://837wgq2ctu3i" path="res://Scenes/MortarPestleObject.tscn" id="6_eia5w"]
+[ext_resource type="Script" path="res://Scripts/Objects & Movement/Containers/ObjectContainer.gd" id="9_hhkwt"]
+[ext_resource type="PackedScene" uid="uid://dj0jqv5fg7ocs" path="res://Scenes/Items/Ingredients/IngredientBase.tscn" id="10_a8fll"]
+[ext_resource type="PackedScene" uid="uid://d37daxy6sp2tn" path="res://Scenes/Items/HeaterStand.tscn" id="10_b3irp"]
+[ext_resource type="Shape3D" uid="uid://v0ftycay4fjv" path="res://Resources/Collision Shapes/MonkeytTest.tres" id="10_ijdub"]
+[ext_resource type="PackedScene" uid="uid://botpl5asrdvhr" path="res://Scenes/Items/BeakerSource.tscn" id="12_oxryv"]
+[ext_resource type="PackedScene" uid="uid://cph5fqoq75dvp" path="res://Scenes/Items/Ingredients/MushroomRed.tscn" id="14_smnqh"]
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_md6ed"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_igmnn"]
+size = Vector3(0.66333, 1.52246, 2.06055)
+
+[sub_resource type="BoxMesh" id="BoxMesh_cgrys"]
+size = Vector3(0.3, 0.5, 0.3)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7vijh"]
+size = Vector3(0.3, 0.5, 0.3)
+
+[node name="Cabin" type="Node3D" node_paths=PackedStringArray("object_container")]
+script = ExtResource("1_dy26l")
+object_container = NodePath("Objects")
+
+[node name="Environment" type="Node3D" parent="."]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Environment"]
+transform = Transform3D(-0.0521683, 0.81835, 0.572347, -0.074283, -0.57472, 0.814972, 0.995872, 1.80875e-09, 0.0907717, 0, 4.29934, 0)
+layers = 3
+light_energy = 0.3
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Environment"]
+environment = ExtResource("1_k3kq4")
+
+[node name="Statics" type="Node3D" parent="."]
+
+[node name="Cabin Static" type="StaticBody3D" parent="Statics"]
+
+[node name="Cabin Mesh" type="MeshInstance3D" parent="Statics/Cabin Static"]
+mesh = ExtResource("1_0aj3j")
+skeleton = NodePath("../..")
+
+[node name="Floor Collision" type="CollisionShape3D" parent="Statics/Cabin Static"]
+shape = SubResource("WorldBoundaryShape3D_md6ed")
+
+[node name="Desk" parent="Statics" instance=ExtResource("4_gmhx7")]
+
+[node name="Cupboard" type="StaticBody3D" parent="Statics"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.47081, 0.374241, 1.03516)
+collision_mask = 0
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Statics/Cupboard"]
+mesh = ExtResource("5_0qrim")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Statics/Cupboard"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00378418, 0.40014, -0.00390625)
+shape = SubResource("BoxShape3D_igmnn")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Statics"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.58241, 0)
+light_color = Color(0.646029, 0.646029, 0.646029, 1)
+light_energy = 1.218
+light_indirect_energy = 14.279
+shadow_enabled = true
+
+[node name="Containers" type="Node3D" parent="Statics"]
+
+[node name="Beaker Source" parent="Statics/Containers" instance=ExtResource("12_oxryv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2861, 1.322, 0.237574)
+
+[node name="Heater Stand" parent="Statics/Containers" instance=ExtResource("10_b3irp")]
+transform = Transform3D(0.405796, 0, -0.913964, 0, 1, 0, 0.913964, 0, 0.405796, 1.00549, 0.962215, 0.254425)
+excluded_item_tags = Array[String](["potion_test_01"])
+
+[node name="Mortar & Pestle" parent="Statics/Containers" instance=ExtResource("6_eia5w")]
+transform = Transform3D(0.576803, 0, -0.816883, 0, 1, 0, 0.816883, 0, 0.576803, 0.983714, 0.760038, 0.78521)
+
+[node name="Player" parent="." instance=ExtResource("3_ocx3a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.90154, 1)
+
+[node name="DEBUG" type="Node3D" parent="."]
+
+[node name="Test Object" type="StaticBody3D" parent="DEBUG" node_paths=PackedStringArray("meshes", "hold_position") groups=["Grabbable", "Interactable"]]
+transform = Transform3D(0.825734, 0, 0.564059, 0, 1, 0, -0.564059, 0, 0.825734, -0.634347, 0.849862, 0.103817)
+collision_layer = 20
+collision_mask = 9
+script = ExtResource("4_goy37")
+meshes = [NodePath("Test Mesh")]
+tags = Array[String](["test_tag_01"])
+hold_position = NodePath("Node3D")
+
+[node name="Test Mesh" type="MeshInstance3D" parent="DEBUG/Test Object"]
+mesh = ExtResource("6_d7l6c")
+skeleton = NodePath("../..")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="DEBUG/Test Object"]
+shape = ExtResource("10_ijdub")
+
+[node name="Node3D" type="Node3D" parent="DEBUG/Test Object"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.017555, 0.180033, -0.0770789)
+
+[node name="Test Container" type="StaticBody3D" parent="DEBUG" groups=["Container", "Interactable"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0204778, 0.820358, -0.486907)
+collision_layer = 13
+collision_mask = 16
+script = ExtResource("9_hhkwt")
+valid_item_tags = Array[String](["potion_test_01"])
+
+[node name="Test Container Mesh" type="MeshInstance3D" parent="DEBUG/Test Container"]
+mesh = SubResource("BoxMesh_cgrys")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="DEBUG/Test Container"]
+shape = SubResource("BoxShape3D_7vijh")
+
+[node name="MushroomRed" parent="DEBUG" instance=ExtResource("14_smnqh")]
+transform = Transform3D(1, 0, 0, 0, 0.57422, -0.818701, 0, 0.818701, 0.57422, -1.03277, 0.729214, 0.488075)
+
+[node name="Objects" type="Node3D" parent="."]
+
+[node name="IngredientTest1" parent="Objects" instance=ExtResource("10_a8fll")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.26809, 0.764057, 0)

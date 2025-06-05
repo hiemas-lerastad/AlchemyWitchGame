@@ -1,0 +1,35 @@
+[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://1ntegeafexuh"]
+
+[ext_resource type="Shader" path="res://Assets/Shaders/Liquid.gdshader" id="1_84au3"]
+[ext_resource type="Shader" path="res://Assets/Shaders/Surface.gdshader" id="1_onco5"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_v6bqu"]
+render_priority = 0
+shader = ExtResource("1_onco5")
+shader_parameter/coeff = null
+shader_parameter/fill_amount = 0.372
+shader_parameter/glass_thickness = 0.01
+shader_parameter/height = 0.32
+shader_parameter/width = 0.1
+shader_parameter/wave_intensity = 0.05
+shader_parameter/liquid_color = Color(0.984314, 0.00392157, 0, 1)
+shader_parameter/glow_color = Color(0.00820202, 0.00820202, 0.00820202, 1)
+shader_parameter/color_modifier = 1.1
+shader_parameter/FOV = 75.0
+shader_parameter/foreground = false
+
+[resource]
+render_priority = 0
+next_pass = SubResource("ShaderMaterial_v6bqu")
+shader = ExtResource("1_84au3")
+shader_parameter/coeff = Vector2(0, 0)
+shader_parameter/vel = Vector2(0, 0)
+shader_parameter/fill_amount = 0.305
+shader_parameter/height = 0.48
+shader_parameter/width = 0.48
+shader_parameter/glass_thickness = 0.01
+shader_parameter/wave_intensity = 0.0
+shader_parameter/liquid_color = Color(0.705809, 0.000822675, 0.000445594, 1)
+shader_parameter/glow_color = Color(0.113725, 0.113725, 1, 1)
+shader_parameter/FOV = 75.0
+shader_parameter/foreground = false

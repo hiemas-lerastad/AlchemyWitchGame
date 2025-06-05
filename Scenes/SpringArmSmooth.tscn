@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://c3jgdf6ba03mb"]
+
+[sub_resource type="GDScript" id="GDScript_7jhdw"]
+script/source = "@tool
+class_name SpringArmSmooth;
+extends Node3D;
+
+#@export_flags_3d_physics var collision_mask: int = 1;
+
+@export var shape: Shape3D:
+	set(value):
+		print('here')
+		print(value)
+		shape = value;
+		collider.shape = value;
+
+@export_custom(PROPERTY_HINT_NONE, \"suffix:m\") var spring_length: float = 1.0:
+	set(value):
+		spring_length = value;
+		ray_cast.target_position = Vector3(0, 0, value);
+
+@export_custom(PROPERTY_HINT_NONE, \"suffix:m\") var margin: float = 0.01;
+
+@export_subgroup(\"Internal Nodes\")
+@export var ray_cast: RayCast3D;
+@export var area: Area3D;
+@export var collider: CollisionShape3D;
+"
+
+[node name="SpringArmSmooth" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.754142, 0)
+script = SubResource("GDScript_7jhdw")

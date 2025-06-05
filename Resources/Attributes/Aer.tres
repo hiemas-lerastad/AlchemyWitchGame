@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Attribute" load_steps=2 format=3 uid="uid://rrg7aavxuey8"]
+
+[ext_resource type="Script" path="res://Scripts/Objects & Movement/Alchemy/Attribute.gd" id="1_xaiqj"]
+
+[resource]
+script = ExtResource("1_xaiqj")
+id = 1
+name = "Aer"
+color = Color(0.856067, 0.856067, 0.856067, 1)

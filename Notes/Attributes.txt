@@ -1,0 +1,44 @@
+| Name      | Hex Color | Description (optional)   |
+| --------- | --------- | ------------------------ |
+| Verdancy  | #3FA34D   | Lush plant life          |
+| Embers    | #E25822   | Burning fire essence     |
+| Tides     | #2E8BC0   | Flowing water magic      |
+| Petal     | #FFB7C5   | Floral fragrance         |
+| Stonecall | #7E6651   | Rocky, earthen energy    |
+| Chill     | #B3DDF2   | Cold wind or ice         |
+| Spore     | #9B7653   | Fungal growth            |
+| Gleam     | #F9F871   | Magical shimmer          |
+| Rootbind  | #6B4226   | Tangling root magic      |
+| Fume      | #A3989D   | Toxic vapor              |
+| Pulse     | #F25C66   | Vibrant life energy      |
+| Husk      | #C2B280   | Withering/decomposition  |
+| Nectar    | #F7B733   | Sweet, attractive energy |
+| Glade     | #88C999   | Peaceful, forest balance |
+| Stormlash | #586BA4   | Electric wildness        |
+| Crystal   | #B8E0D2   | Pure, sharp clarity      |
+| Gloom     | #4B4453   | Shadowy nature           |
+| Sap       | #D8B08C   | Sticky and preservative  |
+| Mirage    | #F6D8AE   | Illusory and confusing   |
+| Bramble   | #8F5E3C   | Sharp, protective force  |
+
+
+{ name: "Verdancy", color: "#3FA34D" },
+{ name: "Embers", color: "#E25822" },
+{ name: "Tides", color: "#2E8BC0" },
+{ name: "Petal", color: "#FFB7C5" },
+{ name: "Stonecall", color: "#7E6651" },
+{ name: "Chill", color: "#B3DDF2" },
+{ name: "Spore", color: "#9B7653" },
+{ name: "Gleam", color: "#F9F871" },
+{ name: "Rootbind", color: "#6B4226" },
+{ name: "Fume", color: "#A3989D" },
+{ name: "Pulse", color: "#F25C66" },
+{ name: "Husk", color: "#C2B280" },
+{ name: "Nectar", color: "#F7B733" },
+{ name: "Glade", color: "#88C999" },
+{ name: "Stormlash", color: "#586BA4" },
+{ name: "Crystal", color: "#B8E0D2" },
+{ name: "Gloom", color: "#4B4453" },
+{ name: "Sap", color: "#D8B08C" },
+{ name: "Mirage", color: "#F6D8AE" },
+{ name: "Bramble", color: "#8F5E3C" },

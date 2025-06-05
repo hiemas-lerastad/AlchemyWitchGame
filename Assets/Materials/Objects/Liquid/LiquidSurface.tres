@@ -1,0 +1,15 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cetx14wjxb8vr"]
+
+[ext_resource type="Shader" path="res://Assets/Shaders/Surface.gdshader" id="1_fwygx"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_fwygx")
+shader_parameter/coeff = null
+shader_parameter/fill_amount = 0.535
+shader_parameter/glass_thickness = 0.01
+shader_parameter/height = 0.32
+shader_parameter/width = 0.1
+shader_parameter/wave_intensity = 0.05
+shader_parameter/liquid_color = Color(0.984314, 0.00392157, 0, 1)
+shader_parameter/glow_color = Color(0.00820202, 0.00820202, 0.00820202, 1)

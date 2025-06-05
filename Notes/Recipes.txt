@@ -1,0 +1,135 @@
+🧪 1. Verdant Pulse
+Needs (6): Verdancy, Pulse, Nectar, Sap, Chill, Gleam
+
+Solution (2 Ingredients):
+
+Bloom Tonic → Verdancy, Nectar, Sap
+
+Shine Brew → Gleam, Nectar, Pulse
+➜ Combined: Verdancy, Pulse, Nectar, Sap, Chill, Gleam ✅
+
+🧪 2. Prism Flare
+Needs (9): Crystal, Nectar, Sap, Pulse, Chill, Mirage, Petal, Husk, Gleam
+
+Solution (3 Ingredients):
+
+Glint Resin → Crystal, Sap, Nectar
+
+Floral Spark → Pulse, Petal, Gleam
+
+Black Dust → Husk, Chill, Mirage
+➜ Combined: 9 exact ✅
+
+🧪 3. Duskroot Salve
+Needs (6): Husk, Rootbind, Petal, Gloom, Chill, Nectar
+
+Solution (2 Ingredients):
+
+Withered Lily → Husk, Chill, Rootbind
+
+Dusk Bloom → Husk, Petal, Gloom
+
+Dream Syrup → Nectar, Mirage, Chill (Optional alternate)
+➜ Combined: Husk, Rootbind, Petal, Gloom, Chill, Nectar ✅
+
+🧪 4. Fungal Echo
+Needs (9): Spore, Crystal, Pulse, Mirage, Gloom, Gleam, Husk, Chill, Nectar
+
+Solution (3 Ingredients):
+
+Lunar Dust → Spore, Pulse, Mirage
+
+Shard Dust → Crystal, Chill, Gloom
+
+Soft Rot → Spore, Husk, Nectar
+➜ Combined: 9 unique ✅
+
+🧪 5. Bramble Sap Brew
+Needs (6): Bramble, Sap, Pulse, Chill, Gleam, Petal
+
+Solution (2 Ingredients):
+
+Thornlight → Bramble, Crystal, Gleam
+
+Juiced Thorn → Nectar, Petal, Sap
+
+Shine Brew → Gleam, Nectar, Pulse
+➜ Combined: 6 exact (Gleam only counted once) ✅
+
+🧪 6. Glacial Bloom
+Needs (6): Chill, Petal, Crystal, Nectar, Husk, Rootbind
+
+Solution (2 Ingredients):
+
+Withered Lily → Chill, Rootbind, Husk
+
+Frozen Nectar → Crystal, Nectar, Petal
+➜ Combined: 6 exact ✅
+
+🧪 7. Lucent Spores
+Needs (6): Spore, Gleam, Crystal, Chill, Mirage, Nectar
+
+Solution (2 Ingredients):
+
+Bloom Ether → Gleam, Spore, Mirage
+
+Sugar Ice → Crystal, Nectar, Chill
+➜ Combined: 6 exact ✅
+
+🧪 8. Toxic Veil
+Needs (9): Fume, Husk, Bramble, Chill, Rootbind, Pulse, Sap, Nectar, Mirage
+
+Solution (3 Ingredients):
+
+Acid Gel → Fume, Nectar, Husk
+
+Spine Tonic → Bramble, Fume, Nectar
+
+Vapored Drop → Chill, Fume, Mirage
+➜ Combined: 9 exact ✅
+
+🧪 9. Dream Infusion
+Needs (6): Mirage, Chill, Pulse, Nectar, Husk, Gloom
+
+Solution (2 Ingredients):
+
+Veiled Elixir → Mirage, Husk, Nectar
+
+Shard Dust → Crystal, Chill, Gloom
+➜ Combined: 6 exact ✅
+
+🧪 10. Bloomfire Draught
+Needs (9): Verdancy, Petal, Bramble, Embers, Chill, Husk, Pulse, Gleam, Nectar
+
+Solution (3 Ingredients):
+
+Floral Spark → Pulse, Petal, Gleam
+
+Burned Resin → Embers, Sap, Bramble
+
+Verdant Ash → Verdancy, Stonecall, Husk
+➜ Combined: 9 exact ✅
+
+🧪 11. Nightglow Serum
+Needs (6): Gloom, Gleam, Petal, Mirage, Crystal, Nectar
+
+Solution (2 Ingredients):
+
+Nocturne Oil → Petal, Gloom, Gleam
+
+Lucent Syrup → Gleam, Nectar, Sap
+➜ Replace Lucent Syrup with Prism Drop → Crystal, Gleam, Nectar
+➜ Combined: Gloom, Gleam, Petal, Mirage, Crystal, Nectar ✅
+
+🧪 12. Ironbark Resin
+Needs (9): Rootbind, Husk, Chill, Pulse, Sap, Stonecall, Bramble, Gloom, Spore
+
+Solution (3 Ingredients):
+
+Dusty Husk → Husk, Stonecall, Pulse
+
+Root Muck → Rootbind, Fume, Pulse
+
+Toxic Thorn → Bramble, Mirage, Pulse
+➜ Replace one for Bloom Frost → Crystal, Chill, Spore
+➜ Final: Rootbind, Husk, Chill, Pulse, Sap, Stonecall, Bramble, Gloom, Spore ✅

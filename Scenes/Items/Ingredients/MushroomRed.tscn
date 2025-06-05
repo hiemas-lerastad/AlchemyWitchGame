@@ -1,0 +1,29 @@
+[gd_scene load_steps=10 format=3 uid="uid://cph5fqoq75dvp"]
+
+[ext_resource type="PackedScene" uid="uid://dj0jqv5fg7ocs" path="res://Scenes/Items/Ingredients/IngredientBase.tscn" id="1_lrnxy"]
+[ext_resource type="Script" path="res://Scripts/Objects & Movement/Alchemy/Attribute.gd" id="2_vaymr"]
+[ext_resource type="Resource" uid="uid://dxg2ws4s36n0j" path="res://Resources/Attributes/Terra.tres" id="3_asa7b"]
+[ext_resource type="Resource" uid="uid://dxa2g7md6orw5" path="res://Resources/Attributes/Ingnis.tres" id="4_gqyey"]
+[ext_resource type="PackedScene" uid="uid://cl1bg2tb0joxh" path="res://Scenes/Items/Ingredients/MushroomRedPowder.tscn" id="5_eh1jg"]
+[ext_resource type="ArrayMesh" uid="uid://dnwwfsh7ummr6" path="res://Assets/Mesh/Mushroom.res" id="5_nod3g"]
+[ext_resource type="Script" path="res://Scripts/Objects & Movement/Alchemy/RecipeList.gd" id="6_r0j2d"]
+
+[sub_resource type="Resource" id="Resource_6lvx1"]
+script = ExtResource("6_r0j2d")
+grind = ExtResource("5_eh1jg")
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_qxmwo"]
+height = 0.0657424
+radius = 0.05
+
+[node name="MushroomRed" instance=ExtResource("1_lrnxy")]
+attributes = Array[ExtResource("2_vaymr")]([ExtResource("3_asa7b"), ExtResource("4_gqyey")])
+recipes = SubResource("Resource_6lvx1")
+tags = Array[String](["ingredient_mushroom", "ingredient_solid"])
+
+[node name="MeshInstance3D" parent="." index="0"]
+mesh = ExtResource("5_nod3g")
+
+[node name="CollisionShape3D" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.00873533, 0)
+shape = SubResource("CylinderShape3D_qxmwo")

@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://botpl5asrdvhr"]
+
+[ext_resource type="Script" path="res://Scripts/Objects & Movement/Containers/ItemSource.gd" id="1_3j5mt"]
+[ext_resource type="PackedScene" uid="uid://c5uogfy3hlcof" path="res://Scenes/Items/Beaker.tscn" id="2_pqo0p"]
+[ext_resource type="ArrayMesh" uid="uid://qsd41porw67v" path="res://Assets/Mesh/Beaker.res" id="3_wip7g"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5idc2"]
+size = Vector3(0.37, 0.37, 0.37)
+
+[node name="Beaker Source" type="StaticBody3D" groups=["Container", "Interactable"]]
+collision_layer = 13
+collision_mask = 20
+script = ExtResource("1_3j5mt")
+item_scene = ExtResource("2_pqo0p")
+valid_item_tags = Array[String](["container_beaker"])
+interaction_type = 1
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_5idc2")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.594275, 0, 0.804262, 0, 1, 0, -0.804262, 0, -0.594275, -0.0882668, -0.0279314, -0.00814022)
+mesh = ExtResource("3_wip7g")
+skeleton = NodePath("../MeshInstance3D")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.594275, 0, 0.804262, 0, 1, 0, -0.804262, 0, -0.594275, 0.0586728, -0.029311, 0.0845228)
+mesh = ExtResource("3_wip7g")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.594275, 0, 0.804262, 0, 1, 0, -0.804262, 0, -0.594275, 0.0487328, -0.029311, -0.0916512)
+mesh = ExtResource("3_wip7g")
